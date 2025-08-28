@@ -86,3 +86,4 @@ All styles are in separate CSS files for each component, making it easy to custo
 
 This project is open source and available under the [MIT License](LICENSE).
 
+
