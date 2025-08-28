@@ -1,9 +1,18 @@
 import React from 'react';
 import './Hero.css';
+import Plasma from './Plasma';
 
 const Hero = () => {
   return (
-    <section id="hero" className="hero">
+    <section id="hero" className="hero" style={{ position: 'relative', overflow: 'hidden' }}>
+      <Plasma 
+        color="#b1c29e"
+        speed={0.6}
+        direction="forward"
+        scale={1.1}
+        opacity={0.8}
+        mouseInteractive={true}
+      />
       <div className="container">
         <div className="hero-content">
           <div className="hero-text">

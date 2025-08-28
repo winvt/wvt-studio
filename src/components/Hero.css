@@ -2,7 +2,7 @@
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: linear-gradient(135deg, var(--primary-cream) 0%, var(--primary-yellow) 100%);
+  background: transparent;
   padding-top: 80px;
   position: relative;
   overflow: hidden;
@@ -13,6 +13,8 @@
   grid-template-columns: 1fr 1fr;
   gap: 4rem;
   align-items: center;
+  position: relative;
+  z-index: 1;
 }
 
 .hero-text {
@@ -25,6 +27,9 @@
   margin-bottom: 1.5rem;
   color: var(--text-dark);
   line-height: 1.2;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 1;
 }
 
 .highlight {
@@ -48,12 +53,17 @@
   color: var(--text-light);
   margin-bottom: 2.5rem;
   line-height: 1.6;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 1;
 }
 
 .hero-buttons {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
+  position: relative;
+  z-index: 1;
 }
 
 .hero-visual {
